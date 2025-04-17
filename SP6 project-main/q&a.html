@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="py-2 w-11/12 mx-auto">
+        <div class="flex justify-between px-3 py-2 bg-white rounded-2xl">
+            <div class="flex items-center">
+                <img src="assets/logo.png" alt=""><span class="text-4xl font-light">Dev</span><span class="text-4xl font-bold">Board</span>
+            </div>
+            <div class="flex items-center gap-x-10">
+                <a href="index.html" class="btn btn-primary">Back to Desk</a>
+            </div>
+        </div>
+    </header>
+    <div class="py-2 w-11/12 mx-auto">
+        <details class="collapse bg-base-100 border-base-300 border">
+            <summary class="collapse-title text-2xl font-semibold">What are the different ways to select an element in the DOM?</summary>
+            <div class="collapse-content text-lg font-medium">
+              There are some ways to select an element in the DOM. Some of them are:
+              <ul>
+                <li>getElementById()</li>
+                <li>getElementsByClassName()</li>
+                <li>getElementsByTagName()</li>
+                <li>querySelector()</li>
+                <li>querySelectorAll()</li>
+            </div>
+          </details>
+          <details class="collapse bg-base-100 border-base-300 border">
+            <summary class="collapse-title text-2xl font-semibold">What is the difference between innerHTML, innerText and textContent?</summary>
+            <div class="collapse-content text-lg font-medium">
+              innerHTML gets the HTML content inside an element.
+              innerText gets the text content inside an element.
+              textContent gets the text content, including text inside hidden elements.
+            </div>
+          </details>
+          <details class="collapse bg-base-100 border-base-300 border">
+            <summary class="collapse-title text-2xl font-semibold">What is event delegation in the DOM?</summary>
+            <div class="collapse-content text-lg font-medium">
+              Event delegation is a technique where we can attach a event listener to a parent element instead of child elements. It helps to control the events of child elements.
+            </div>
+          </details>
+          <details class="collapse bg-base-100 border-base-300 border">
+            <summary class="collapse-title text-2xl font-semibold">What is event bubbling in the DOM?</summary>
+            <div class="collapse-content text-lg font-medium">
+              Event bubbling is a type of DOM event propagation where the event first triggers on the innermost target element, and then triggers on the parents of the target element in the same nesting hierarchy till it reaches the outermost DOM element.
+            </div>
+          </details>
+          <details class="collapse bg-base-100 border-base-300 border">
+            <summary class="collapse-title text-2xl font-semibold">How do you create, add and remove elements using JavaScript?</summary>
+            <div class="collapse-content text-lg font-medium">
+              We can create elements by using createElement() method, then add elements by using appendChild() method and remove elements by using removeChild() method.
+            </div>
+          </details>
+    </div>
+</body>
+</html>
